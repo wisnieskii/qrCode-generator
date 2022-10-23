@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d4d4d4;
+
+}
+
+.qrCode {
+  width: 20%;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  height: 38px;
+  border-radius: 8px;
+  max-width: 300px;
+  width: 100%;
+  margin: 24px 0;
+  padding: 8px;
+  outline: none;
+  border: none
+}
